@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/robfig/cron/v3"
 	"proxy-collect/scheduler"
+
+	"github.com/robfig/cron/v3"
 )
 
 func main() {
