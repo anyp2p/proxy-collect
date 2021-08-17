@@ -1,12 +1,15 @@
+// +build api
+
 package main
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"github.com/tongsq/go-lib/logger"
 	"proxy-collect/config"
 	"proxy-collect/dao"
 	"proxy-collect/dto"
+
+	"github.com/gin-gonic/gin"
+	"github.com/tongsq/go-lib/logger"
 )
 
 func main() {
